@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Urban Class | Mode Urbaine à N'Djamena</title>
+    <meta name="description" content="Urban Class : vêtements, chaussures et accessoires tendance à N'Djamena. Commandez en ligne, payez via Airtel Money et faites-vous livrer.">
+
+    <meta property="og:title" content="Urban Class | Mode Urbaine à N'Djamena">
+    <meta property="og:description" content="Vêtements, chaussures et accessoires tendance. Commande simple, paiement Airtel Money, livraison à N'Djamena.">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%230a0a0a'/%3E%3Ccircle cx='50' cy='34' r='9' fill='%23e8391f'/%3E%3Crect x='28' y='54' width='44' height='9' fill='%23f5f2ea'/%3E%3C/svg%3E">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="navbar" id="navbar">
+        <div class="navbar-inner">
+
+            <div class="logo">
+                URBAN<span>CLASS</span>
+            </div>
+
+            <div class="menu">
+                <a href="#accueil">Accueil</a>
+                <a href="#boutique">Boutique</a>
+                <a href="#apropos">À propos</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="nav-actions">
+
+                <button class="cart-trigger" id="cartTrigger" aria-label="Ouvrir le panier" aria-haspopup="dialog">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 7h2l1.4 10.6a2 2 0 0 0 2 1.7h7.2a2 2 0 0 0 2-1.7L20 10H7" />
+                        <circle cx="10" cy="21" r="1.4" fill="currentColor" stroke="none"/>
+                        <circle cx="17" cy="21" r="1.4" fill="currentColor" stroke="none"/>
+                    </svg>
+                    <span class="cart-count" id="cartCount">0</span>
+                </button>
+
+                <a href="#boutique" class="nav-button">
+                    Voir la boutique
+                </a>
+
+                <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mobileMenu">
+                    <span></span><span></span><span></span>
+                </button>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#accueil">Accueil</a>
+        <a href="#boutique">Boutique</a>
+        <a href="#apropos">À propos</a>
+        <a href="#contact">Contact</a>
+        <a href="#boutique" class="nav-button">Voir la boutique</a>
+    </div>
+
+
+    <!-- ================= HEADER / HERO ================= -->
+
+    <header id="accueil" class="hero-header">
+
+        <div class="hero">
+
+            <div class="hero-text">
+
+                <p class="small-title">
+                    Style · Qualité · Tendance
+                </p>
+
+                <h1>
+                    LA CLASSE<br>
+                    À PORTÉE DE MAIN.
+                </h1>
+
+                <p>
+                    Découvrez une sélection de vêtements,
+                    chaussures et accessoires tendance pour
+                    hommes et femmes à N'Djamena.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#boutique" class="button">
+                        Découvrir la boutique
+                    </a>
+
+                    <a href="#contact" class="button-outline">
+                        Nous contacter
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-visual">
+
+                <div class="tag-chip tag-chip-1">Nouveau drop</div>
+
+                <div class="hang-tag">
+                    <div class="hang-tag-sub">N'Djamena · Édition locale</div>
+                    <div class="hang-tag-brand">URBAN<span>.</span></div>
+                    <div class="hang-tag-barcode">
+                        <span style="height:100%"></span><span style="height:60%"></span><span style="height:85%"></span>
+                        <span style="height:40%"></span><span style="height:100%"></span><span style="height:70%"></span>
+                        <span style="height:55%"></span><span style="height:90%"></span><span style="height:45%"></span>
+                        <span style="height:100%"></span><span style="height:65%"></span>
+                    </div>
+                    <div class="hang-tag-price">
+                        <span>Réf. UC-2026</span>
+                        <strong>Class.</strong>
+                    </div>
+                </div>
+
+                <div class="tag-chip tag-chip-2">Paiement Airtel Money</div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- ================= BOUTIQUE ================= -->
+
+        <section id="boutique" class="products-section">
+
+            <div class="section-title">
+                <h2>Trouve ton <span>style.</span></h2>
+                <p class="section-lead">Chaque pièce est sélectionnée pour son confort et son allure. Ajoute au panier et commande en quelques secondes.</p>
+                <div class="stitch"></div>
+            </div>
+
+
+            <div class="products">
+
+                <!-- PRODUIT 1 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M8 4 4 7v3h3v10h10V10h3V7l-4-3-2 2h-2z"/>
+                        </svg>
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="category">HOMME</p>
+                        <h3>T-Shirt Urban</h3>
+
+                        <p class="description">
+                            T-shirt moderne et confortable
+                            pour un style quotidien.
+                        </p>
+
+                        <div class="product-bottom">
+                            <strong>10 000 FCFA</strong>
+                            <button class="add-to-cart" data-id="tshirt-urban" data-name="T-Shirt Urban" data-price="10000">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+                                Ajouter
+                            </button>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUIT 2 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M6 3h12l1 6-2 12h-4l-1-9-1 9H7L5 9z"/>
+                        </svg>
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="category">HOMME</p>
+                        <h3>Pantalon Premium</h3>
+
+                        <p class="description">
+                            Coupe moderne et élégante
+                            pour toutes les occasions.
+                        </p>
+
+                        <div class="product-bottom">
+                            <strong>15 000 FCFA</strong>
+                            <button class="add-to-cart" data-id="pantalon-premium" data-name="Pantalon Premium" data-price="15000">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+                                Ajouter
+                            </button>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUIT 3 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3 17c0-2 1.5-3 3-3 1 0 1.5.5 2.5.5S10 13 12 13c2.5 0 3 2 5 2 1.5 0 2-1 3.5-1 .8 0 1.5.6 1.5 1.5V18H3z"/>
+                            <path d="M6 14V8l3-2 2 2 3-1 3 2v5"/>
+                        </svg>
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="category">CHAUSSURES</p>
+                        <h3>Sneakers Urban</h3>
+
+                        <p class="description">
+                            Sneakers tendance pour compléter
+                            ton outfit.
+                        </p>
+
+                        <div class="product-bottom">
+                            <strong>25 000 FCFA</strong>
+                            <button class="add-to-cart" data-id="sneakers-urban" data-name="Sneakers Urban" data-price="25000">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+                                Ajouter
+                            </button>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUIT 4 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3 15a9 9 0 0 1 18 0z"/>
+                            <path d="M3 15h18v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                            <path d="M13 6.5 17 5"/>
+                        </svg>
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="category">ACCESSOIRES</p>
+                        <h3>Casquette Urban</h3>
+
+                        <p class="description">
+                            Une touche finale pour
+                            ton look.
+                        </p>
+
+                        <div class="product-bottom">
+                            <strong>8 000 FCFA</strong>
+                            <button class="add-to-cart" data-id="casquette-urban" data-name="Casquette Urban" data-price="8000">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+                                Ajouter
+                            </button>
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= À PROPOS ================= -->
+
+        <section id="apropos" class="about">
+
+            <div class="about-image">
+                <div class="about-box">
+                    <span>U<span class="letter-accent">.</span>C</span>
+                </div>
+            </div>
+
+            <div class="about-text">
+
+                <p class="small-title">À propos de nous</p>
+
+                <h2>
+                    Plus qu'une boutique,<br>
+                    <span>un style de vie.</span>
+                </h2>
+
+                <p>
+                    Urban Class est une boutique basée à
+                    N'Djamena qui propose des vêtements,
+                    chaussures et accessoires modernes
+                    pour celles et ceux qui veulent affirmer
+                    leur style.
+                </p>
+
+                <p>
+                    Notre objectif est simple : proposer des
+                    produits tendance et accessibles tout en
+                    offrant une expérience simple et agréable.
+                </p>
+
+                <a href="#contact" class="button">Parlons-nous</a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SERVICES ================= -->
+
+        <section class="services">
+
+            <div class="section-title">
+                <h2>Simple. <span>Rapide.</span> Stylé.</h2>
+                <div class="stitch"></div>
+            </div>
+
+            <div class="service-container">
+
+                <div class="service">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3 7h11v9H3z"/>
+                            <path d="M14 10h4l3 3v3h-7z"/>
+                            <circle cx="7" cy="18" r="1.6"/>
+                            <circle cx="17.5" cy="18" r="1.6"/>
+                        </svg>
+                    </div>
+                    <h3>Livraison</h3>
+                    <p>Recevez vos commandes facilement à N'Djamena.</p>
+                </div>
+
+                <div class="service">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 11.5a8.4 8.4 0 0 1-8.9 8.4 8.6 8.6 0 0 1-3.6-.8L3 20l1-4.9a8.3 8.3 0 0 1-.9-3.8A8.4 8.4 0 0 1 12 3a8.4 8.4 0 0 1 9 8.5z"/>
+                        </svg>
+                    </div>
+                    <h3>Commande WhatsApp</h3>
+                    <p>Commandez rapidement directement avec notre équipe.</p>
+                </div>
+
+                <div class="service">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="m12 3 2.6 5.6 6.1.6-4.6 4.1 1.3 6-5.4-3.1-5.4 3.1 1.3-6-4.6-4.1 6.1-.6z"/>
+                        </svg>
+                    </div>
+                    <h3>Qualité</h3>
+                    <p>Des produits sélectionnés pour votre style.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section id="contact" class="contact">
+
+            <div class="contact-content">
+
+                <p class="small-title">Une question ?</p>
+
+                <h2>Parlons de votre <span>prochain look.</span></h2>
+
+                <p>
+                    Pour commander un produit ou obtenir
+                    plus d'informations, contactez-nous
+                    directement.
+                </p>
+
+                <a href="https://wa.me/23568758570" class="whatsapp-button" target="_blank" rel="noopener">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 18.2a8.1 8.1 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.7.8-.8.9-.2.2-.3.2-.5.1a6.7 6.7 0 0 1-2-1.2 7.4 7.4 0 0 1-1.4-1.7c-.1-.2 0-.4.1-.5l.4-.4c.1-.1.2-.3.2-.4.1-.1 0-.3 0-.4-.1-.1-.6-1.5-.9-2-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-1 2.2c0 1.3.9 2.6 1.1 2.8.1.2 2 3 4.7 4.2.7.3 1.2.5 1.6.6a3.9 3.9 0 0 0 1.7.1c.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.2-.2-.5-.3z"/></svg>
+                    Commander sur WhatsApp
+                </a>
+
+                <p class="contact-note">Paiement disponible via Airtel Money · réponse rapide sur WhatsApp</p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-logo">URBAN<span>CLASS</span></div>
+
+        <p class="footer-tagline">La classe à portée de main.</p>
+
+        <div class="footer-links">
+            <a href="#accueil">Accueil</a>
+            <a href="#boutique">Boutique</a>
+            <a href="#apropos">À propos</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="copyright">
+            © 2026 Urban Class. Tous droits réservés.
+        </div>
+
+    </footer>
+
+
+    <!-- ================= PANIER ================= -->
+
+    <div class="cart-overlay" id="cartOverlay"></div>
+
+    <aside class="cart-drawer" id="cartDrawer" role="dialog" aria-modal="true" aria-label="Votre panier">
+
+        <div class="cart-header">
+            <h3>Votre panier</h3>
+            <button class="cart-close" id="cartClose" aria-label="Fermer le panier">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
+            </button>
+        </div>
+
+        <div class="cart-items" id="cartItems">
+            <p class="cart-empty">Votre panier est vide pour le moment.</p>
+        </div>
+
+        <div class="cart-footer">
+            <div class="cart-subtotal">
+                <span>Sous-total</span>
+                <strong id="cartSubtotal">0 FCFA</strong>
+            </div>
+            <button class="cart-checkout-btn" id="cartCheckoutBtn" disabled>Passer la commande</button>
+        </div>
+
+    </aside>
+
+
+    <!-- ================= CHECKOUT / PAIEMENT ================= -->
+
+    <div class="modal-overlay" id="checkoutOverlay"></div>
+
+    <div class="checkout-modal" id="checkoutModal" role="dialog" aria-modal="true" aria-label="Finaliser la commande">
+
+        <div class="checkout-head">
+            <h3>Finaliser la commande</h3>
+            <button class="cart-close" id="checkoutClose" aria-label="Fermer">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
+            </button>
+        </div>
+
+        <div class="checkout-body">
+
+            <div class="checkout-section">
+                <h4>Récapitulatif</h4>
+                <div id="checkoutSummary"></div>
+                <div class="order-total">
+                    <span>Total</span>
+                    <span id="checkoutTotal">0 FCFA</span>
+                </div>
+            </div>
+
+            <div class="checkout-section">
+                <h4>Vos informations</h4>
+
+                <div class="form-row">
+                    <label for="custName">Nom complet</label>
+                    <input type="text" id="custName" placeholder="Votre nom" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="custPhone">Numéro de téléphone</label>
+                    <input type="tel" id="custPhone" placeholder="Ex : 66 00 00 00" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="custAddress">Quartier / adresse de livraison</label>
+                    <input type="text" id="custAddress" placeholder="Ex : Sabangali, N'Djamena">
+                </div>
+            </div>
+
+            <div class="checkout-section">
+                <h4>Paiement</h4>
+
+                <div class="payment-box">
+                    <div class="payment-box-top">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M9 18h6"/></svg>
+                        Paiement via Airtel Money
+                    </div>
+                    <p>
+                        Envoyez le montant total au numéro Airtel Money ci-dessous,
+                        puis appuyez sur « Confirmer la commande » pour nous transmettre
+                        votre commande et votre preuve de paiement sur WhatsApp.
+                    </p>
+                    <div class="payment-number-row">
+                        <span class="payment-number">+235 68 75 85 70</span>
+                        <button type="button" class="copy-btn" id="copyNumberBtn">Copier</button>
+                    </div>
+                </div>
+            </div>
+
+            <button class="checkout-confirm-btn" id="checkoutConfirmBtn">
+                Confirmer la commande sur WhatsApp
+            </button>
+
+            <p class="checkout-fine-print">
+                En confirmant, WhatsApp s'ouvre avec le détail de votre commande
+                déjà rempli. Il ne vous reste qu'à l'envoyer.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= FLOTTANTS ================= -->
+
+    <a href="https://wa.me/23568758570" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Nous écrire sur WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 18.2a8.1 8.1 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.7.8-.8.9-.2.2-.3.2-.5.1a6.7 6.7 0 0 1-2-1.2 7.4 7.4 0 0 1-1.4-1.7c-.1-.2 0-.4.1-.5l.4-.4c.1-.1.2-.3.2-.4.1-.1 0-.3 0-.4-.1-.1-.6-1.5-.9-2-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-1 2.2c0 1.3.9 2.6 1.1 2.8.1.2 2 3 4.7 4.2.7.3 1.2.5 1.6.6a3.9 3.9 0 0 0 1.7.1c.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.2-.2-.5-.3z"/></svg>
+    </a>
+
+    <button class="back-to-top" id="backToTop" aria-label="Retour en haut">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+    </button>
+
+    <div class="toast" id="toast" role="status" aria-live="polite">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+        <span id="toastMessage">Ajouté au panier</span>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
